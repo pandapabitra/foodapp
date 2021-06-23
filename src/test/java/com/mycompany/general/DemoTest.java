@@ -25,6 +25,7 @@ public class DemoTest {
     @Test//6
     //@Ignore
     public void testSalaryComparision(){
+        //Assert.assertEquals(66656.67, 777.9);
         System.out.println("test 6");
         Assert.assertThat(666, is(66));
     }
