@@ -45,7 +45,7 @@ public class CalculatorTest {
     }
 
     @Test
-    public void test_division_num2_noteqalto_zero(){
+    public void test_division_num2_notequalto_zero(){
         Double result = calculator.division(5.5,1.1);
         assertEquals(Double.valueOf(5.0),result);
     }
